@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: rgba(242, 242, 242, .6);
   margin: 0;
 }
@@ -29,6 +29,10 @@ body {
   text-decoration: none;
 }
 
+a:hover{
+  color: black;
+}
+
 .anchor {
   display: block;
   position: relative;
@@ -39,8 +43,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #31b0d5; /*background color to blue*/
-  background-image: url(ea1419da94b90382f638da423e5b9f4d.jpg);
+  background-image: url(main.jpg);
   background-size: cover;
   margin-bottom: 0; /*no bottom margin*/
 
@@ -282,9 +285,9 @@ h4 {
 
 input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.589);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 textarea::placeholder{
   color: rgba(255, 255, 255, 0.589);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
