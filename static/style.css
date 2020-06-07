@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: rgba(242, 242, 242, .6);
@@ -9,7 +5,8 @@ body {
 }
 
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /*NAVBAR*/
@@ -42,7 +39,7 @@ a:hover{
 
 /*JUMBOTRON*/
 .jumbotron {
-  height: 100vh; /*height to 100% of view height*/
+  height: 100vh;
   background-image: url(main.jpg);
   background-size: cover;
   margin-bottom: 0; /*no bottom margin*/
@@ -90,7 +87,7 @@ a:hover{
 }
 
 /*ARROW LINK*/
-#down-arrow {
+#arrow {
   /*position: absolute;
   width: 100%;*/
   margin-top: auto;
@@ -98,8 +95,8 @@ a:hover{
   margin-bottom: 50px;
 }
 
-#down-arrow a {
-  color: white;
+#arrow a {
+  color: black;
 }
 
 /*CONTENT*/
@@ -285,9 +282,9 @@ h4 {
 
 input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.589);
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 textarea::placeholder{
   color: rgba(255, 255, 255, 0.589);
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
