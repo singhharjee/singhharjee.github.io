@@ -9,6 +9,10 @@ body {
   scroll-behavior: smooth;
 }
 
+a:hover{
+  color: black;
+}
+
 /*NAVBAR*/
 .navbar {
   background-color: #00000073;
@@ -26,9 +30,6 @@ body {
   text-decoration: none;
 }
 
-a:hover{
-  color: black;
-}
 
 .anchor {
   display: block;
